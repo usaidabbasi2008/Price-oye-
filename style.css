@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-top{
+    width: 100%;
+    height: 300px;
+    margin-top: 60px;
+    background-image: url(img/bg);
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 247, 247) !important;
+}
+nav{
+        background-color: #48afff;
+    color: white;   
+
+display: flex;
+justify-content: space-between;
+padding: 3px;
+align-items: center;
+height: 100px;
+
+
+}
+.start{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    color: white;
+    
+}
+.btns{
+    background-color: white;
+    color: #48afff;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btnd{
+    padding-right: 100px;
+}
+.input{
+   
+   
+   background-color: white;
+   border-radius: 8px;
+   padding: 5px;
+   
+   
+   
+   
+}
+input{
+    border: none;
+    border-radius: 10px;
+    width: 70vh;
+    height: 50px;
+    
+}
+.mic{
+    margin-right: 10px;
+    cursor: pointer;
+    width: 20px;
+}
+.button{
+  
+   padding: 20px;
+  gap: 5px;
+
+  
+}
+.logo{
+    padding-left: 20px;
+    
+}
+.btn1{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: white;
+    color: rgb(0, 6, 116);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input:focus{
+    outline: none;
+}
+button:hover{
+    opacity: 0.8;
+}
+.card1{
+    width: 410px;
+    height: 390px;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.5);
+    
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    
+    padding: 100px;
+    align-items: center;
+}
+.img{
+    border-radius: 10px;
+    width: 10%;
+    justify-content: center;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10px;
+    
+ 
+    
+}
+.btnc{
+    background-color: #48afff;   
+    ;
+    border:none ;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 80%;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    color: gray;
+    
+    
+    
+    text-decoration: line-through rgb(255, 0, 0) ;
+}
+.price2{
+    font-weight: bold;
+    font-size: 25px;
+    
+
+}
+h5{
+    font-weight: 100;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.main-price{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    
+}
+.off{
+display: inline;
+margin-left: 150px;
+font-weight: 400;
+font-size: 20px;
+background-color: #f0faf7;
+    color: #0bb07e;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+.cards2{
+        display: flex;
+    gap: 20px;
+    
+    padding: 100px;
+    padding-top: 300px;
+    align-items: center;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    background-color: #48afff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+    
+}
