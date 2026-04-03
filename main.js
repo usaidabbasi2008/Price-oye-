@@ -21,7 +21,7 @@ btnc.forEach((btnc) => {
 let min = 2;
 let sec = 0;
 
-let timer = document.getElementsByClassName("timer")[0];
+let timer = document.getElementById("timer");
 
 timer.style.color="red"
 timer.innerHTML = (min < 10 ? "0" + min : min) + ":" + (sec < 10 ? "0" + sec : sec)
